@@ -6,7 +6,7 @@ def sepdump_info(sepdumpid: int, start: int, end: int) -> dict:
     img_info['name'] = "sepdump_{:02d}".format(sepdumpid)
     img_info['start'] = start
     img_info['end'] = end
-    img_info['size'] = end - start
+    img_info['size'] = end - start + 1
     return img_info
 
 
