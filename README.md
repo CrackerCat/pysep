@@ -1,2 +1,2 @@
 # pysep
-Split sep-firmware images in Python
+Split 64 bits sep-firmware images in Python
